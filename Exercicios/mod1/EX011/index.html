@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML 5</title>
+</head>
+<body>
+     <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img02/fotos-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img02/Foto-m.png" type="image/png">
+        <img src="img02/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>reproduzindo Áudio </h1>
+    <p>Vamos aprender a reproduzir áudio em HTML 5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/oventosolar.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegadr não consegue reprofuzir áudio.<a href="midia/oventosolar.mp3">clique aqui para baixar o arquivo MP3</a> </p>
+    </audio>
+    <h1></h1>
+</body>
+</html>
